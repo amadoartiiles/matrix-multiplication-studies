@@ -1,0 +1,4 @@
+language,n_min,n_max,points,exponent_b
+c,128,2048,8,3.504
+java,128,2048,8,3.731
+python,128,1024,6,3.137

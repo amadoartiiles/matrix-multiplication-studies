@@ -1,0 +1,4 @@
+language,largest_ok_n,largest_attempted_n,failures
+c,2048,2048,none
+java,2048,2048,none
+python,1024,1536,n=1536: timeout (no multiplication finished within 300 s); n=2048: skipped (not attempted: timeout at a smaller size)

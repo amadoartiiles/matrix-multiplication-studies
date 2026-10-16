@@ -1,0 +1,29 @@
+n,language,max_abs_error,max_rel_error,max_error_over_bound,elements_over_bound,within_tolerance,checksums_consistent_across_reps,bitwise_equal_to
+32,c,1.776e-15,2.745e-14,3.398e-02,0,True,True,java python
+32,java,1.776e-15,2.745e-14,3.398e-02,0,True,True,c python
+32,python,1.776e-15,2.745e-14,3.398e-02,0,True,True,c java
+64,c,2.665e-15,6.900e-13,1.190e-02,0,True,True,java python
+64,java,2.665e-15,6.900e-13,1.190e-02,0,True,True,c python
+64,python,2.665e-15,6.900e-13,1.190e-02,0,True,True,c java
+128,c,5.773e-15,3.426e-13,6.485e-03,0,True,True,java python
+128,java,5.773e-15,3.426e-13,6.485e-03,0,True,True,c python
+128,python,5.773e-15,3.426e-13,6.485e-03,0,True,True,c java
+256,c,2.665e-14,1.190e-11,7.920e-03,0,True,True,java python
+256,java,2.665e-14,1.190e-11,7.920e-03,0,True,True,c python
+256,python,2.665e-14,1.190e-11,7.920e-03,0,True,True,c java
+384,c,6.750e-14,8.712e-11,7.931e-03,0,True,True,java python
+384,java,6.750e-14,8.712e-11,7.931e-03,0,True,True,c python
+384,python,6.750e-14,8.712e-11,7.931e-03,0,True,True,c java
+512,c,7.461e-14,1.588e-09,5.176e-03,0,True,True,java python
+512,java,7.461e-14,1.588e-09,5.176e-03,0,True,True,c python
+512,python,7.461e-14,1.588e-09,5.176e-03,0,True,True,c java
+768,c,9.592e-14,7.557e-10,2.965e-03,0,True,True,java python
+768,java,9.592e-14,7.557e-10,2.965e-03,0,True,True,c python
+768,python,9.592e-14,7.557e-10,2.965e-03,0,True,True,c java
+1024,c,1.350e-13,1.210e-10,2.454e-03,0,True,True,java python
+1024,java,1.350e-13,1.210e-10,2.454e-03,0,True,True,c python
+1024,python,1.350e-13,1.210e-10,2.454e-03,0,True,True,c java
+1536,c,2.274e-13,2.469e-09,1.697e-03,0,True,True,java
+1536,java,2.274e-13,2.469e-09,1.697e-03,0,True,True,c
+2048,c,2.913e-13,3.490e-08,1.247e-03,0,True,True,java
+2048,java,2.913e-13,3.490e-08,1.247e-03,0,True,True,c

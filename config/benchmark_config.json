@@ -1,0 +1,30 @@
+{
+  "sizes": [32, 64, 128, 256, 384, 512, 768, 1024, 1536, 2048],
+  "languages": ["c", "java", "python"],
+  "measured_repetitions": 5,
+  "warmup_runs": {"c": 1, "java": 3, "python": 1},
+  "min_batch_time_s": 0.1,
+  "time_limit_per_multiplication_s": 300,
+  "memory_budget_bytes": 4000000000,
+  "memory_sampling_interval_s": 0.02,
+  "pause_between_runs_s": 2,
+  "input": {
+    "generator": "numpy.random.default_rng (PCG64), seeded with [seed, n]",
+    "seed": 20261012,
+    "distribution": "uniform",
+    "low": -1.0,
+    "high": 1.0,
+    "dtype": "float64 (IEEE 754 binary64), little-endian, row-major"
+  },
+  "c": {
+    "compiler": "gcc",
+    "flags": ["-O2", "-std=c11", "-Wall", "-Wextra"]
+  },
+  "java": {
+    "jvm_flags": ["-Xmx4g"]
+  },
+  "python": {
+    "interpreter": "CPython",
+    "flags": []
+  }
+}

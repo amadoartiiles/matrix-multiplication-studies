@@ -1,0 +1,113 @@
+{
+  "numpy_version": "2.2.5",
+  "input": {
+    "generator": "numpy.random.default_rng (PCG64), seeded with [seed, n]",
+    "seed": 20261012,
+    "distribution": "uniform",
+    "low": -1.0,
+    "high": 1.0,
+    "dtype": "float64 (IEEE 754 binary64), little-endian, row-major"
+  },
+  "files": {
+    "A_32.bin": {
+      "n": 32,
+      "bytes": 8192,
+      "sha256": "12be3dd3a5e3d0fe40b17fe09c5a0809bb87c1ce739e4255ef6f638b96b98b9e"
+    },
+    "B_32.bin": {
+      "n": 32,
+      "bytes": 8192,
+      "sha256": "f8ee9580319c73b67b20e38f8eb84825a830beec4b4110f71af4cf1acc71645b"
+    },
+    "A_64.bin": {
+      "n": 64,
+      "bytes": 32768,
+      "sha256": "6a789338161a4f7c54ffcfee679b3b33f83e30ca07312c2129c73239c568ed04"
+    },
+    "B_64.bin": {
+      "n": 64,
+      "bytes": 32768,
+      "sha256": "9c9138a302237cedaf9bb022861297e1eee6cfcbcc5750b17f7ede06eb115d2d"
+    },
+    "A_128.bin": {
+      "n": 128,
+      "bytes": 131072,
+      "sha256": "f0dc973a5ced7dcf08974c8dc26951002c684858e378a943150e438d42d493cc"
+    },
+    "B_128.bin": {
+      "n": 128,
+      "bytes": 131072,
+      "sha256": "c74441f22afc17aa90b9fb04174961df6a8adbf1402dc648ac52f62795f43e7c"
+    },
+    "A_256.bin": {
+      "n": 256,
+      "bytes": 524288,
+      "sha256": "7a8c8d480a1a4e090b831f6664c4992af379f712c0dd12028e4a65872b4571ad"
+    },
+    "B_256.bin": {
+      "n": 256,
+      "bytes": 524288,
+      "sha256": "e1d47266839b23f667fa8eebc72e34d044f6916681ce3a7bb7225264cf07dda2"
+    },
+    "A_384.bin": {
+      "n": 384,
+      "bytes": 1179648,
+      "sha256": "42f6625ac151d0a746b3fba98958d1259ec28a4e892c7aee25d54366de4c9e6c"
+    },
+    "B_384.bin": {
+      "n": 384,
+      "bytes": 1179648,
+      "sha256": "390dface1a681ff9477ce13e2dcda9d20140cf3b77a49ab9d5311af25006fae1"
+    },
+    "A_512.bin": {
+      "n": 512,
+      "bytes": 2097152,
+      "sha256": "66e1a77db1287c2254caf3f4658d342ef58ad4e589739db4c0815eaf51105eb6"
+    },
+    "B_512.bin": {
+      "n": 512,
+      "bytes": 2097152,
+      "sha256": "236a64b87549ab165ea05d9615f827488ba06b94d693f97ce3ac8138fc336ddf"
+    },
+    "A_768.bin": {
+      "n": 768,
+      "bytes": 4718592,
+      "sha256": "014c8376d96264e7d8ffb3bdb2bd15e9bf321e9793266f559cbe9bf658d48bf1"
+    },
+    "B_768.bin": {
+      "n": 768,
+      "bytes": 4718592,
+      "sha256": "32bb9b7966e95e423a8bfeabbce8b33cd609207842d9e03ffb813cb8dee1be1d"
+    },
+    "A_1024.bin": {
+      "n": 1024,
+      "bytes": 8388608,
+      "sha256": "d171357856be712b438d9b9cbae90d89c451b66c7b4f28ecf2b58c882d3de34b"
+    },
+    "B_1024.bin": {
+      "n": 1024,
+      "bytes": 8388608,
+      "sha256": "6f9f60d1e7029df52c4cd1f7c84ccc9b13a59aaa77ff256c2222250f0a89bfed"
+    },
+    "A_1536.bin": {
+      "n": 1536,
+      "bytes": 18874368,
+      "sha256": "b6cd63fc64e33febac7b0838ec843476e9606345ffb80d3cda0fee74bf3f78e9"
+    },
+    "B_1536.bin": {
+      "n": 1536,
+      "bytes": 18874368,
+      "sha256": "0cf0107e9295573de58309efadbd089e6f65ad3d774722b9978d8b83413d8629"
+    },
+    "A_2048.bin": {
+      "n": 2048,
+      "bytes": 33554432,
+      "sha256": "aa92e9277185e186c3c835303ddf259379a731384339a5e82eb601ca7a7b853d"
+    },
+    "B_2048.bin": {
+      "n": 2048,
+      "bytes": 33554432,
+      "sha256": "0706606681099f24494f86c870fc7712bf30418bb1e23eb67ca0aafe9aafcb28"
+    }
+  }
+}

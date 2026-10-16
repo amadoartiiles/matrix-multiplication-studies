@@ -1,0 +1,27 @@
+== c ==
+known 3x3 product            PASS
+A * I == A                   PASS
+I * A == A                   PASS
+A * 0 == 0                   PASS
+non-commuting 2x2            PASS
+1x1                          PASS
+selftest PASSED
+
+== java ==
+known 3x3 product            PASS
+A * I == A                   PASS
+I * A == A                   PASS
+A * 0 == 0                   PASS
+non-commuting 2x2            PASS
+1x1                          PASS
+selftest PASSED
+
+== python ==
+known 3x3 product            PASS
+A * I == A                   PASS
+I * A == A                   PASS
+A * 0 == 0                   PASS
+non-commuting 2x2            PASS
+1x1                          PASS
+selftest PASSED
+
